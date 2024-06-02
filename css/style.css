@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+/* font-family: "Open Sans", sans-serif; */
+h1,h2,h3,h4,h5,h6,p,ul,li,input,button,textarea{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 42px;
+    color:#44C0C2;
+    font-weight: 400;
+    padding: 10px 0;
+    font-family: "Lobster", sans-serif;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+}
+.menu li a{
+    display: inline-block;
+    padding: 25px 15px;
+    color:#171616;
+    transition: .5s;
+}
+.menu li a::after{
+    content: "";
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height: 3px;
+    transition: .5s;
+}
+.menu li a:hover{
+    color:#44C0C2;
+    background-color: #15e6e90a;
+}
+.menu li a:hover::after{
+    background-color: #44C0C2;
+}
+/* ----------------------------- */
+.carousel-item{
+    background-image: url(../images/slider.png);
+    background-size: cover;
+    padding: 150px 0;
+}
+.banner_body h1{
+    font-size: 52px;
+    color:#fff;
+    font-weight: 500;
+}
+.banner_body p{
+    font-size: 20px;
+    color:#fff;
+    padding: 30px 0;
+}
+.banner_btn{
+    padding: 10px 25px;
+    color:#fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    display: inline-block;
+}
+.banner_btn:hover{
+    color:#fff;
+
+}
+.slide_btn{
+    background: none;
+    font-size: 32px;
+    color: #44C0C2;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 99;
+}
+/* ----------------- */
+.feature_icon{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    color: #44C0C2;
+    line-height: 80px;
+    border: 2px solid #44C0C2;
+    border-radius: 50%;
+    margin: auto;
+}
+.features_box h3{
+    font-size: 25px;
+    color:#6C6F78;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.features_box p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#6C6F78;
+    padding: 20px 0;
+}
+.read_more{
+    display: inline-block;
+    padding: 5px 10px;
+    color:#fff;
+    background-color: #44C0C2;
+}
+/* -------------- */
+.portfolio_image{
+    width: 100%;
+}
+.portfolio_image img{
+    width: 100%;
+}
+.portfolio_heading{
+    font-size: 42px;
+    color:#171616;
+    font-weight: 500;
+}
+.portfolio{
+    background-color: #d0d0d05c;
+}
+.see_all{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #44C0C2;
+    color:#fff;
+    border-radius: 3px;
+}
+/* ------------ */
+.team_image{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.team_image img{
+    width: 100%;
+}
+.team_box_footer{
+    width: 100%;
+}
+.team_box_footer h3{
+    font-size: 20px;
+    color: #171616;
+    font-weight: 400;
+    padding-top: 25px;
+}
+.team_box_footer h4{
+    font-size: 15px;
+    color: #171616;
+    font-weight: 400;
+    line-height: 25px;
+}
+.team_box_footer p{
+    font-size: 15px;
+    color:#171616;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+/* -------team end--------- */
+.price{
+    background-color: #F1F1F1;
+}
+.price_box{
+    width: 100%;
+    background-color: #fff;
+}
+.price_box h3{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #485460;
+
+}
+.price_box h2{
+    font-size: 20px;
+    color:#171616;
+    font-weight: 500;
+    padding: 15px 0;
+    background-color:#F8F9FB;
+}
+.price_list{
+    width: 100%;
+}
+.price_list li{
+    padding: 15px 0;
+    color: #485460;
+    font-size: 15px;
+    border-bottom: 1px solid #dae6f1;
+}
+.price_btn{
+    width: 100%;
+    padding:20px 0;
+    background-color:#F8F9FB;
+}
+.price_btn a{
+    display: inline-block;
+    padding: 8px 40px;
+    font-size: 15px;
+    color:#fff;
+    background-color: #788492;
+}
+/* -------------------- */
+/* ------- */
+.client_say{
+    font-size: 32px;
+    color:#171616;
+    font-weight: 500;
+}
+.client_say h1{
+    font-size: 32px;
+    
+}
+.client_say p{
+    font-size: 15px;
+    color:#171616;
+    font-weight: 400;
+    padding: 20px 0;
+    width: 50%;
+    display: inline-block
+}
+.client_say h5{
+    font-size: 15px;
+    color:#171616;
+    font-weight: 400;
+}
+
+.what_client_say{
+    background: none;
+}
+.swiper-button-prev::after{
+  color:#6C6F78;
+  font-size: 32px;
+}
+.swiper-button-next::after{
+    color:#6C6F78;
+    font-size: 32px;
+  }
+/* -------------------- */
+footer{
+    width: 100%;
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+}
+.footer_heading{
+    font-size: 32px;
+    color:#fff;
+    font-weight: 500;
+}
+.footer_content h3{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 500;
+}
+.footer_content p{
+    font-size: 16px;
+    color:#767676;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.footer_icon{
+    padding: 15px 0;
+}
+.footer_icon li{
+    display: inline-block;
+}
+.footer_icon li a{
+    display: inline-block;
+    color:#fff;
+    font-size: 16px;
+}
+.footer_icon li a i{
+    height:40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    background-color: #3B5997;
+}
+.fa-twitter{
+    background-color: #3EC2F3;
+}
+.fa-google-plus-g{
+  background-color: #E44C41;  
+}
+
+.footer_contact_list li{
+    color:#85799A;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px;
+}
+.footer_form{
+    width: 100%;
+}
+.footer_form input,textarea{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+.footer_form textarea{
+    height: 150px;
+    padding: 15px;
+    resize: none;
+}
+.footer_btn{
+    width: 130px;
+    color: #fff;
+    background-color: #3EC2F3;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+/* -------------- */
+@media(max-width:767.98px){
+    .menu{
+        display: none;
+    }
+    .carousel-item{
+        padding: 80px 0;
+    }
+    .banner_body h1{
+        font-size: 36px;
+    }
+    .banner_body p{
+        font-size: 16px;
+    }
+    .client_say p{
+        width: 80%;
+    }
+}
